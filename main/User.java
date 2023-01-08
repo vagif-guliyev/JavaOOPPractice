@@ -1,4 +1,9 @@
-public class User {
+package main;
+
+public class User extends Person {
+
+    public int salary;
+
     static {
         System.out.println("Static block is called");
     }
