@@ -1,12 +1,14 @@
 package main;
 
 public class Main {
-    public static void main(String[] args) throws ClassNotFoundException {
-        Class.forName("main.User");
 
-        new User();
-        new User(5);
+    public static void main(String[] args) {
+        Car car = new Car();
+        System.out.println(car.a);
 
-        User user = new User();
+        BMW bmw = new BMW();
+        System.out.println(bmw.a);
     }
+
+
 }
